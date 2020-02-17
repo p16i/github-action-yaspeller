@@ -3,12 +3,12 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: Test Bad File
     steps:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Test Bad Step
+      - name: Yaspeller
         uses: ./ # Uses an action in the root directory
         id: current-action
         with:
