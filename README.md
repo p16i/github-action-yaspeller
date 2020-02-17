@@ -21,7 +21,7 @@ This specifies the directory of our written content for the checking.
 on: [push]
 
 jobs:
-  hello_world_job:
+  proofreading:
     runs-on: ubuntu-latest
     name: Test Good File
     steps:
