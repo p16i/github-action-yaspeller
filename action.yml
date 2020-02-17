@@ -6,7 +6,7 @@ inputs:
     required: true
   dir:
     description: "Base directory"
-    required: "."
+    default: "."
 outputs:
   output: # id of output
     description: "Suggestion"
