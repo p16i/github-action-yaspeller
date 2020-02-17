@@ -23,7 +23,7 @@ on: [push]
 jobs:
   proofreading:
     runs-on: ubuntu-latest
-    name: Test Good File
+    name: Proofread documents
     steps:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
