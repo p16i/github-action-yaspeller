@@ -1,5 +1,7 @@
-name: 'Yaspeller'
-description: 'Writing take time, correction should not'
+name: "Github action for Yaspeller"
+description: "write more 📝, care less 😎."
+label: "alert-triangle"
+color: "red"
 inputs:
   ext:
     description: "file extensions, e.g. '.md,.html'"
