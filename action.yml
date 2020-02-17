@@ -19,4 +19,4 @@ runs:
   args:
     - ${{ inputs.ext }}
     - ${{ inputs.dir }}
-    - ${{ inputs.directory }}
+    - ${{ inputs.dictionary }}
