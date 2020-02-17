@@ -1,6 +1,6 @@
 # Github Action for Yaspeller
 
-**NOTE:** This is a minimal version; and I appreciete any suggest or feedback ❤️.
+**NOTE:** This is a MVP version; I would appreciete any suggest or feedback ❤️.
 
 This action is a wrapper of [Yaspeller](https://github.com/hcodes/yaspeller). It searchs typos in your files and provides correction candidates.
 
