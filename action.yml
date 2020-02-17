@@ -1,6 +1,6 @@
 name: "Github action for Yaspeller"
 description: "write more 📝, care less 😎."
-label: "alert-triangle"
+icon: "alert-triangle"
 color: "red"
 inputs:
   ext:
