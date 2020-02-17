@@ -13,4 +13,4 @@ jobs:
         id: current-action
         with:
           filepath: "good-*.md"
-          dir: "./test-files"
+          dir: "./testxx-
