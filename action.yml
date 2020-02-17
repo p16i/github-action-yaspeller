@@ -9,7 +9,6 @@ inputs:
     default: "."
   dictionary:
     description: "Path to dictionary"
-    default: ""
 outputs:
   output: # id of output
     description: "Suggestion"
