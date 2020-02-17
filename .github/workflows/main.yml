@@ -8,9 +8,15 @@ jobs:
       # To use this repository's private action, you must check out the repository
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Hello world action step
+      - name: Hello world action step (Bad Step)
         uses: ./ # Uses an action in the root directory
         id: current-action
         with:
           filepath: "*.md"
-          dir: "./test-files"
+          dir: "./bad-test-files"
+      - name: Hello world action step (Good Step)
+        uses: ./ # Uses an action in the root directory
+        id: current-action
+        with:
+          filepath: "*.md"
+          dir: "./bad-test-files"
