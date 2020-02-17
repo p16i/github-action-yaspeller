@@ -1,5 +1,7 @@
 #!/bin/sh -l
 
+echo  "$@"
+
 DICT_PATH="$3"
 if [ -z "$DICT_PATH" ]
 then
