@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-$DICT_PATH="$3"
+DICT_PATH="$3"
 if [ -z "$DICT_PATH" ]
 then
     yaspeller -e $1 $2
