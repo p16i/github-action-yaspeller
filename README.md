@@ -3,7 +3,6 @@
 **NOTE:** This is a minimal version; and I appreciete any suggest or feedback ❤️.
 
 This action is a wrapper of [Yaspeller](https://github.com/hcodes/yaspeller). It searchs typos in your files and provides correction candidates.
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
 
 ## Inputs
 
