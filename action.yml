@@ -1,7 +1,8 @@
 name: "Github action for Yaspeller"
 description: "write more 📝, care less 😎."
-icon: "alert-triangle"
-color: "red"
+branding:
+  icon: "alert-triangle"
+  color: "red"
 inputs:
   ext:
     description: "file extensions, e.g. '.md,.html'"
