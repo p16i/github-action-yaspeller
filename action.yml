@@ -7,6 +7,9 @@ inputs:
   dir:
     description: "Base directory"
     default: "."
+  dictionary:
+    description: "Path to dictionary"
+    default: ""
 outputs:
   output: # id of output
     description: "Suggestion"
@@ -16,3 +19,4 @@ runs:
   args:
     - ${{ inputs.filepath }}
     - ${{ inputs.dir }}
+    - ${{ inputs.directory }}
