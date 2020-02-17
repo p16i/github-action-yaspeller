@@ -1,8 +1,8 @@
 name: 'Yaspeller'
 description: 'Writing take time, correction should not'
 inputs:
-  filepath:
-    description: "Glob syntax for files"
+  ext:
+    description: "file extensions, e.g. '.md,.html'"
     required: true
   dir:
     description: "Base directory"
@@ -16,6 +16,6 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.filepath }}
+    - ${{ inputs.ext }}
     - ${{ inputs.dir }}
     - ${{ inputs.directory }}
