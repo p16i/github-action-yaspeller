@@ -12,5 +12,5 @@ jobs:
         uses: ./ # Uses an action in the root directory
         id: current-action
         with:
-          filepath: "good-*.md"
-          dir: "./testxx-
+          filepath: "*.md"
+          dir: "./test-files/good
