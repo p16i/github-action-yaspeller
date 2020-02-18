@@ -6,7 +6,7 @@ This action is a wrapper of [Yaspeller](https://github.com/hcodes/yaspeller). It
 
 ## Inputs
 
-Currently, this action requires two parameters, namely 
+Currently, this action requires three parameters, namely 
 
 ### `ext`
 This is file extensions, e.g. `.md,.html`.
